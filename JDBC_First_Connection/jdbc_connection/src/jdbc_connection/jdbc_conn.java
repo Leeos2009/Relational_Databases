@@ -10,8 +10,6 @@ public class jdbc_conn {
 		
 	
 		//Connection conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/Estate_Agents", "root", "955gehc8A_");
-
-	   
 	   try {
 		   Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
 	   conn = DriverManager.getConnection(URL,USERNAME,PASSWORD);
