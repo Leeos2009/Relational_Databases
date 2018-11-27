@@ -23,6 +23,7 @@ public class jdbc_conn {
 		  String city = rs.getString("city");
 		  String postcode = rs.getString("postcode");
 		  
+		  System.out.print("Estate_Agents Database - Branch Table \n" + "BranchNo: " + "\tStreet:" + "\tCity:" + "\tPostCode:" + "\n");
 		  System.out.println(branchNo + "\t" + street + "\t" + city + "\t" + postcode);
 	   }
 	   }
